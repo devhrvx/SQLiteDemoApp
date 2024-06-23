@@ -116,7 +116,8 @@
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/btnViewAll"
@@ -130,7 +131,8 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDelete" />
+        app:layout_constraintTop_toBottomOf="@+id/btnDelete"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/btnSearch"
@@ -144,7 +146,8 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnViewAll" />
+        app:layout_constraintTop_toBottomOf="@+id/btnViewAll"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/btnDelete"
@@ -158,6 +161,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAdd" />
+        app:layout_constraintTop_toBottomOf="@+id/btnAdd"
+        android:onClick="onClick"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
